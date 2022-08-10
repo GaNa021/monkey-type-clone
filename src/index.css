@@ -19,15 +19,15 @@ code {
 @import "tailwindcss/utilities";
 
 .main-container {
-  @apply md:flex md:justify-center py-44 h-full bg-slate-800;
+  @apply md:flex md:justify-center py-44 h-full bg-gradient-to-b from-gray-900 to-gray-700;
 }
 
 .template-data {
-  @apply absolute overflow-hidden font-cartoon resize-none max-w-4xl bg-slate-800 text-slate-600 outline-0 text-2xl;
+  @apply absolute overflow-hidden underline-offset-4 font-cartoon resize-none max-w-4xl text-slate-600 outline-0 text-2xl;
 }
 
 .input-data {
-  @apply absolute overflow-hidden font-cartoon resize-none max-w-4xl bg-transparent text-white outline-0 text-2xl;
+  @apply absolute overflow-hidden underline-offset-4 caret-yellow-200 animate-pulse font-cartoon resize-none max-w-4xl bg-transparent text-white outline-0 text-2xl;
 }
 
 .btn-refresh {
